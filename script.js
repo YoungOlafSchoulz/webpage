@@ -78,10 +78,10 @@ const Header = props => {
     React.createElement("div", { className: "moon" }), /*#__PURE__*/
     React.createElement("div", { className: "container" }, /*#__PURE__*/
     React.createElement("h1", null, /*#__PURE__*/
-    React.createElement("span", { className: "line" }, "I do"), /*#__PURE__*/
-    React.createElement("span", { className: "line" }, "graphic design"), /*#__PURE__*/
+    React.createElement("span", { className: "line" }, "Artist,"), /*#__PURE__*/
+    React.createElement("span", { className: "line" }, "Politikgame"), /*#__PURE__*/
     React.createElement("span", { className: "line" }, /*#__PURE__*/
-    React.createElement("span", { className: "color" }, "&"), " code.")), /*#__PURE__*/
+    React.createElement("span", { className: "color" }, "&"), " Skreethitta")), /*#__PURE__*/
 
 
     React.createElement("div", { className: "buttons" }, /*#__PURE__*/
