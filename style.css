@@ -691,7 +691,7 @@ background-position: 0% 0%;
   font-size: 4rem;
   font-weight: normal;
   font-style: italic;
-  color: #fafafa;
+  color: #000;
   line-height: 3rem;
 }
 
@@ -749,7 +749,7 @@ background-position: 0% 0%;
 }
 
 .color {
-  color: #c0392b;
+  color: #e09f27;
   font-style: italic;
 }
 
@@ -1292,3 +1292,14 @@ footer .wrapper {
     padding-bottom: .8rem;
   }
 }
+
+/* #welcome-section > div.container{
+  background: #fff;
+  padding: 20px;
+}
+
+#welcome-section > div.container:hover{
+  box-shadow: 7px 3px 15px #373737;
+  padding: 20px;
+  transition: 1s;
+} */
