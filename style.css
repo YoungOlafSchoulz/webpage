@@ -628,7 +628,13 @@ background-position: 0% 0%;
   -webkit-animation: moon-move-in 1.2s 1s forwards;
           animation: moon-move-in 1.2s 1s forwards;
 }
-
+@media only screen and (max-width: 949px) {
+  .moon {
+  background-size:10% !important;
+  background-position: 0 0 !important;
+  }
+  
+}
 
 @-webkit-keyframes moon-move-in {
   from {
