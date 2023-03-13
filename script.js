@@ -107,16 +107,12 @@ const About = props => {
     React.createElement("div", { className: "wrapper" }, /*#__PURE__*/
     React.createElement("article", null, /*#__PURE__*/
     React.createElement("div", { className: "title" }, /*#__PURE__*/
-    React.createElement("h3", null, "Who's this guy?"), /*#__PURE__*/
+    React.createElement("h3", null, "Wer ist der Dude?"), /*#__PURE__*/
     React.createElement("p", { className: "separator" })), /*#__PURE__*/
 
     React.createElement("div", { className: "desc full" }, /*#__PURE__*/
-    React.createElement("h4", { className: "subtitle" }, "My name is Yago."), /*#__PURE__*/
-    React.createElement("p", null, "I am a web developer and UX designer based in the beautiful west coast of Spain, Galicia."), /*#__PURE__*/
-
-
-
-    React.createElement("p", null, "I really enjoy solving problems as well as making things pretty and easy to use. I can't stop learning new things; the more, the better. I also love photography, a hobby I'm taking along since the good old film cameras. Oh, and rice with milk; I have a passion for rice with milk!")), /*#__PURE__*/
+    React.createElement("h4", { className: "subtitle" }, "Der Junge Young Olaf Scholz, wuchs in der der Hood auf."), /*#__PURE__*/
+    React.createElement("p", null, " Die Hood war geprägt von Armut, Gewalt und Gangs, aber auch von Freundschaft, Zusammenhalt und Hoffnung.Schon früh lernte Young Olaf, dass das Leben in der Hood kein Zuckerschlecken war. Doch er wollte sich nicht unterkriegen lassen und kämpfte jeden Tag ums Überleben. Er ging zur Schule, jobbte nebenbei und half seiner alleinerziehenden Mutter, wo er konnte."), /*#__PURE__*/), /*#__PURE__*/
 
 
 
@@ -124,30 +120,29 @@ const About = props => {
 
 
     React.createElement("div", { className: "title" }, /*#__PURE__*/
-    React.createElement("h3", null, "What does he do?"), /*#__PURE__*/
+    React.createElement("h3", null, "Was ist Gucci?"), /*#__PURE__*/
     React.createElement("p", { className: "separator" })), /*#__PURE__*/
 
     React.createElement("div", { className: "desc" }, /*#__PURE__*/
-    React.createElement("h4", { className: "subtitle" }, "I'm a programmer."), /*#__PURE__*/
-    React.createElement("p", null, "For the front-end I usually work with Javascript, either standalone or including popular frameworks like ReactJS and VueJS. I also make the web pretty by using Sass, CSS and, whenever needed, any of their friends: Bootstrap, Bulma, etc."), /*#__PURE__*/
+    React.createElement("h4", { className: "subtitle" }, "Music"), /*#__PURE__*/
+    React.createElement("p", null, "Meine Musik ist ein Spiegelbild meiner Erfahrungen und meiner Perspektive auf die Welt. Ich erzähle Geschichten, die das Leben schreibt, und setze mich mit Themen auseinander, die uns alle betreffen. Meine Texte sind geprägt von meiner Liebe zum Detail und meiner Fähigkeit, komplexe Themen auf eine klare und prägnante Weise zu vermitteln. Mein Rap-Stil ist vielseitig und umfasst sowohl schnelle, energiegeladene Tracks als auch ruhigere, introspektive Stücke. Ich hoffe, dass meine Musik den Menschen ein Gefühl von Empathie und Solidarität vermittelt und dazu beiträgt, unsere Gesellschaft zu einer gerechteren und harmonischeren zu machen."), /*#__PURE__*/
 
 
 
-
-    React.createElement("p", null, "For the back-end I also work with Javascript (NodeJS, Express, MongoDB, etc). But, of course, whenever the project requires PHP, I do PHP as well (Wordpress, Laravel, etc).")), /*#__PURE__*/
+), /*#__PURE__*/
 
 
 
 
     React.createElement("div", { className: "desc" }, /*#__PURE__*/
-    React.createElement("h4", { className: "subtitle" }, "Also a designer."), /*#__PURE__*/
-    React.createElement("p", null, "I feel comfortable working with many Adobe products. Photoshop, Illustrator, InDesign, Lightroom or Xd are some kind of industry standards and I love working with them. I'm not limited to them, though: Gimp, Inkscape or Figma are also very valid applications that I've been working with."), /*#__PURE__*/
+    React.createElement("h4", { className: "subtitle" }, "Kunst"), /*#__PURE__*/
+    React.createElement("p", null, "Ich liebe es, meine Gedanken und Emotionen durch meine Kunst zum Ausdruck zu bringen. Meine abstrakten Gemälde sind geprägt von kühnen Farbkombinationen und Formen, die den Betrachter auf eine Reise durch meine tiefsten Gedanken und Emotionen mitnehmen. Jedes meiner Werke erzählt eine eigene Geschichte und gibt oft Anstoß zum Nachdenken und reflektieren. Meine Kunstwerke haben oft einen politischen oder sozialen Hintergrund und sind von einem starken Sinn für Gerechtigkeit und Menschlichkeit geprägt. Ich hoffe, dass meine Kunst den Menschen hilft, eine tiefere Schönheit und Bedeutung in der Welt um uns herum zu entdecken."), /*#__PURE__*/
 
 
 
 
 
-    React.createElement("p", null, "User interfaces, brochures, books, branding... You name it! As I mentioned, creating pretty things is particularly important for me."))))));
+ )))));
 
 
 

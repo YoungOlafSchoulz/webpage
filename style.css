@@ -575,7 +575,7 @@ a:active {
 .silhouette {
   position: absolute;
   bottom: -110px !important;
-  left: 0;
+  left: -100px;
   background: url('media/olafsword3.png') bottom left no-repeat;
   width: 50%;
   height: 90%;
@@ -584,12 +584,24 @@ a:active {
   animation: silhouette-move-in 1000ms 800ms forwards;
 }
 
-@media(max-height: 1000px){
+@media(max-width: 640px){
   .silhouette {
-background-position: 0% 0%;
+background-position: 60% 120% !important;
+background-size: 90%;
+    left: 0
 
 }
 
+}
+
+@media(max-width: 1200px){
+  .silhouette {
+background-position: 0% 0%;
+    width: 100%
+
+}
+
+  
 }
 
 @-webkit-keyframes silhouette-move-in {
@@ -618,7 +630,7 @@ background-position: 0% 0%;
   right: 0;
   position: fixed;
   background: url('media/olaf-scholz-celebrity-mask.png') right 150% no-repeat;
-  background-position: 10vh 20vw !important;
+  background-position: 70vw 20vh !important;
   background-size: 4% 8%;
   background-attachment: fixed;
   width: 100%;
@@ -631,7 +643,7 @@ background-position: 0% 0%;
 @media only screen and (max-width: 949px) {
   .moon {
   background-size:10% !important;
-  background-position: 0 0 !important;
+
   }
   
 }
@@ -665,7 +677,7 @@ background-position: 0% 0%;
   width: fit-content;
   position: absolute;
   right: 0;
-  top: 50%;
+  top: 25%;
   right: 25%;
   opacity: 0;
   transform: translate(0, -50%);
@@ -698,7 +710,8 @@ background-position: 0% 0%;
   font-weight: normal;
   font-style: italic;
   color: #000;
-  line-height: 3rem;
+  line-height: 3.3rem;
+  font-family: fantasy
 }
 
 #welcome-section .container h1 .line:first-child {
