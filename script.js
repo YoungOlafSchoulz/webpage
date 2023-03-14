@@ -129,7 +129,8 @@ const About = props => {
 
 
 
-), /*#__PURE__*/
+
+    React.createElement("p", null, "For the back-end I also work with Javascript (NodeJS, Express, MongoDB, etc). But, of course, whenever the project requires PHP, I do PHP as well (Wordpress, Laravel, etc).")), /*#__PURE__*/
 
 
 

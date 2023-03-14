@@ -707,13 +707,21 @@ background-position: 0% 0%;
 
 #welcome-section .container h1 {
   font-size: 4rem;
-  font-weight: normal;
+  font-weight: bold;
   font-style: italic;
   color: #000;
   line-height: 3.3rem;
-  font-family: fantasy
+  font-family: system-ui;
 }
 
+@media(max-height: 920px){
+#welcome-section .container h1 .line {
+  align: left !important;
+  margin-left: 0 !important
+}
+
+  
+}
 #welcome-section .container h1 .line:first-child {
   margin-left: 1rem;
 }
@@ -831,8 +839,9 @@ background-position: 0% 0%;
   -webkit-clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
           clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
   z-index: 5;
-  background: #fafafa url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Author_BG.jpg) center right no-repeat;
+  background: #fafafa url(media/olaf-scholz-celebrity-mask.png) center right no-repeat;
   background-attachment: fixed;
+  
 }
 
 #about .wrapper {
